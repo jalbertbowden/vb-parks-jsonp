@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <title>Compare</title>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;" />
+    <link rel="stylesheet" href="css/style.css" />
+    <meta name="title" content="Compare" />
+    <meta name="description" content="Compare Page Content" />
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <script src="http://dev.bowdenweb.com/x/compare/js/jquery-1.8.3.min.js"></script>
+
+<!-- http://www.vbgov.com/_assets/apps/parkfinder/_.ashx?data=1
+latlng"
+"ID"
+title 
+
+"address":"10th Street",
+"zip":"23451",
+"notes":null,
+"hours":null,"url":null,
+"amenities":[3,15],
+"marker":null,"point":null,
+"html":"\u003cp\u003e\u003ca href=\u0027#\u0027 class=\u0027zoom-to\u0027\u003e\u003ci class=\u0027icon-screenshot\u0027\u003e\u003c/i\u003e Zoom-To\u003c/a\u003e&ensp;|&ensp;\u003ca target=\u0027_blank\u0027 href=\u0027http://maps.apple.com/?q=10th Street,23451\u0027\u003e\u003ci class=\u0027icon-hand-right\u0027\u003e\u003c/i\u003e Directions\u003c/a\u003e\u003c/p\u003e\u003ch4\u003e10th Street Playground on the Beach\u003c/h4\u003e\u003cp\u003e10th Street, 23451\u003cbr\u003e\u003cb\u003eAmenities:\u003c/b\u003e\u003cbr\u003eBeach Access, Playground\u003c/p\u003e"},
+
+-->
+<style>
+abbr{text-transform:small-caps}
+#datatable{width:100%}
+th{font-weight:700; width:10%}
+td.wat{width:40px}
+.wat a{overflow:hidden; width:100%}
+</style>
+<script>
+$.getJSON('http://dev.bowdenweb.com/x/compare/php-simple-proxy/demo.php?url=http://www.vbgov.com/_assets/apps/parkfinder/_.ashx?data=1',
+  function(data) {        
+    var items = [];        
+    if (data.status.http_code != 200) {            return;        }        
+    $.each(data.contents.facilities, function(key, val) {
+     // items.push('<li id="' + val.state_code + '">' + val.state_name + '</li>');
+     // items.push('<li> State Code <b>' + val.category_id + '</b> State Name <b>' + val.category_name + '</b></li>');
+     // items.push('<option id="' + val.ID + '">' + val.latlng + ' ' + val.title + '</option>');
+     // items.push('<tr><td>' + val.ID + '</td><td>' + val.latlng + '</td><td>' + val.title + '</td><td>' + val.address + '</td><td>' + val.zip + '</td><td>' + val.notes + '</td><td>' + val.hours + '</td><td>' + val.amenities + '</td><td>' + val.marker + '</td></tr>';
+     // items.push('<tr><td colspan="9">' + val.html + '</td></tr>');
+     items.push('<tr><td>' + val.ID + '</td><td>' + val.address + '</td><td>' + val.zip + '</td><td>' + val.notes + '</td><td>' + val.hours + '</td><td class="wat"><a href="' + val.url + '">' + val.url + '</a></td><td>' + val.amenities + '</td><td>' + val.marker + '</td><td>' + val.point + '</td><td>' + val.html + '</td></tr>');
+     	     
+    });  
+    
+    $('<tbody>', {    'id': 'list-categories',    html: items.join('')  }).hide('#dummy-data').appendTo('#datatable');});</script>
+<script src="http://dev.bowdenweb.com/x/compare/js/jquery-lightbox.js"></script>
+  </head>
+  <body>
+    <div class="content">
+      <div class="header">
+      <div class="subheader">
+          <div id="control-1">
+           <table id="datatable">
+             <caption><a href="http://www.vbgov.com/_assets/apps/parkfinder/_.ashx?data=1">Virginia Beach Parks <abbr>json</abbr> Data <code>http://www.vbgov.com/_assets/apps/parkfinder/_.ashx?data=1</code></a></caption>
+             <thead><tr><th>ID</th><th>Address</th><th>Zip</th><th>Notes</th><th>Hours</th><th><abbr>url</abbr></th><th>Amenities</th><th>Marker</th><th>Point</th><th>HTML</th></tr></thead>
+             <tbody id="dummy-data"><tr><td>33</td><td>10th Street</td><td>23451</td><td>null</td><td>null</td><td class="wat"><a href="null">null</a></td><td>3,15</td><td>null</td><td>null</td><td><p><a href="#" class="zoom-to"><i class="icon-screenshot"></i> Zoom-To</a> | <a target="_blank" href="http://maps.apple.com/?q=10th Street,23451"><i class="icon-hand-right"></i> Directions</a></p><h4>10th Street Playground on the Beach</h4><p>10th Street, 23451<br><b>Amenities:</b><br>Beach Access, Playground</p></td></tr></tbody>
+           </table>
+          </div>
+                </div>
+      </div> <!-- .header -->
+      </div>
+  </body>
+</html>
+

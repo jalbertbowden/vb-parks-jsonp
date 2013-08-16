@@ -1,0 +1,131 @@
+@font-face{font-family:"open_sansregular";
+src:url("http://dev.bowdenweb.com/a/fonts/sans-serif/open-sans/open-sans-regular.eot");
+src:url("http://dev.bowdenweb.com/a/fonts/sans-serif/open-sans/open-sans-regular.eot?#iefix") format("embedded-opentype"),
+ url("http://dev.bowdenweb.com/a/fonts/sans-serif/open-sans/open-sans-regular.woff") format("woff"),
+ url("http://dev.bowdenweb.com/a/fonts/sans-serif/open-sans/open-sans-regular.ttf") format("truetype"),
+ url("http://dev.bowdenweb.com/a/fonts/sans-serif/open-sans/open-sans-regular.svg#open_sansregular") format("svg");
+font-weight:normal; font-style:normal}
+
+@font-face{font-family:"open_sansregular";
+src: url("http://dev.bowdenweb.com/a/fonts/sans-serif/open-sans/bold/open-sans-bold.eot");
+src: url("http://dev.bowdenweb.com/a/fonts/sans-serif/open-sans/bold/open-sans-bold.eot?#iefix") format("embedded-opentype"),
+ url("http://dev.bowdenweb.com/a/fonts/sans-serif/open-sans/bold/open-sans-bold.woff") format("woff"),
+ url("http://dev.bowdenweb.com/a/fonts/sans-serif/open-sans/bold/open-sans-bold.ttf") format("truetype"),
+ url("http://dev.bowdenweb.com/a/fonts/sans-serif/open-sans/bold/open-sans-bold.svg#open_sansbold") format("svg");
+font-weight:bold; font-style:normal}
+
+@font-face{font-family:"open_sansregular";
+src: url("http://dev.bowdenweb.com/a/fonts/sans-serif/open-sans/italic/open-sans-italic.eot");
+src: url("http://dev.bowdenweb.com/a/fonts/sans-serif/open-sans/italic/open-sans-italic.eot?#iefix") format("embedded-opentype"),
+ url("http://dev.bowdenweb.com/a/fonts/sans-serif/open-sans/italic/open-sans-italic.woff") format("woff"),
+ url("http://dev.bowdenweb.com/a/fonts/sans-serif/open-sans/italic/open-sans-italic.ttf") format("truetype"),
+ url("http://dev.bowdenweb.com/a/fonts/sans-serif/open-sans/italic/open-sans-italic.svg#open_sansitalic") format("svg");
+font-weight:normal; font-style:italic}
+
+@font-face{font-family:"open_sansregular";
+src: url("http://dev.bowdenweb.com/a/fonts/sans-serif/open-sans/bolditalic/open-sans-bolditalic.eot");
+src: url("http://dev.bowdenweb.com/a/fonts/sans-serif/open-sans/bolditalic/open-sans-bolditalic.eot?#iefix") format("embedded-opentype"),
+ url("http://dev.bowdenweb.com/a/fonts/sans-serif/open-sans/bolditalic/open-sans-bolditalic.woff") format("woff"),
+ url("http://dev.bowdenweb.com/a/fonts/sans-serif/open-sans/bolditalic/open-sans-bolditalic.ttf") format("truetype"),
+ url("http://dev.bowdenweb.com/a/fonts/sans-serif/open-sans/bolditalic/open-sans-bolditalic.svg#open_sansbold_italic") format("svg");
+font-weight:bold; font-style:italic}
+
+@font-face{font-family:"open_sansregular";
+src: url("http://dev.bowdenweb.com/a/fonts/sans-serif/open-sans/extrabold/open-sans-extrabold.eot");
+src: url("http://dev.bowdenweb.com/a/fonts/sans-serif/open-sans/extrabold/open-sans-extrabold.eot?#iefix") format("embedded-opentype"),
+ url("http://dev.bowdenweb.com/a/fonts/sans-serif/open-sans/extrabold/open-sans-extrabold.woff") format("woff"),
+ url("http://dev.bowdenweb.com/a/fonts/sans-serif/open-sans/extrabold/open-sans-extrabold.ttf") format("truetype"),
+ url("http://dev.bowdenweb.com/a/fonts/sans-serif/open-sans/extrabold/open-sans-extrabold.svg#open_sans_extraboldregular") format("svg");
+font-weight:800; font-style:normal}
+
+@font-face{font-family:"open_sansregular";
+src: url("http://dev.bowdenweb.com/a/fonts/sans-serif/open-sans/extrabolditalic/open-sans-extrabolditalic.eot");
+src: url("http://dev.bowdenweb.com/a/fonts/sans-serif/open-sans/extrabolditalic/open-sans-extrabolditalic.eot?#iefix") format("embedded-opentype"),
+ url("http://dev.bowdenweb.com/a/fonts/sans-serif/open-sans/extrabolditalic/open-sans-extrabolditalic.woff") format("woff"),
+ url("http://dev.bowdenweb.com/a/fonts/sans-serif/open-sans/extrabolditalic/open-sans-extrabolditalic.ttf") format("truetype"),
+ url("http://dev.bowdenweb.com/a/fonts/sans-serif/open-sans/extrabolditalic/open-sans-extrabolditalic.svg#open_sans_extrabolditalic") format("svg");
+font-weight:800; font-style:italic}
+
+@font-face{font-family:"open_sansregular";
+src: url("http://dev.bowdenweb.com/a/fonts/sans-serif/open-sans/light/open-sans-light.eot");
+src: url("http://dev.bowdenweb.com/a/fonts/sans-serif/open-sans/light/open-sans-light.eot?#iefix") format("embedded-opentype"),
+ url("http://dev.bowdenweb.com/a/fonts/sans-serif/open-sans/light/open-sans-light.woff") format("woff"),
+ url("http://dev.bowdenweb.com/a/fonts/sans-serif/open-sans/light/open-sans-light.ttf") format("truetype"),
+ url("http://dev.bowdenweb.com/a/fonts/sans-serif/open-sans/light/open-sans-light.svg#open_sans_lightregular") format("svg");
+font-weight:200; font-style:normal}
+
+@font-face{font-family:"open_sansregular";
+src: url("http://dev.bowdenweb.com/a/fonts/sans-serif/open-sans/lightitalic/open-sans-lightitalic.eot");
+src: url("http://dev.bowdenweb.com/a/fonts/sans-serif/open-sans/lightitalic/open-sans-lightitalic.eot?#iefix") format("embedded-opentype"),
+ url("http://dev.bowdenweb.com/a/fonts/sans-serif/open-sans/lightitalic/open-sans-lightitalic.woff") format("woff"),
+ url("http://dev.bowdenweb.com/a/fonts/sans-serif/open-sans/lightitalic/open-sans-lightitalic.ttf") format("truetype"),
+ url("http://dev.bowdenweb.com/a/fonts/sans-serif/open-sans/lightitalic/open-sans-lightitalic.svg#open_sans_lightitalic") format("svg");
+font-weight:200; font-style:italic}
+
+@font-face{font-family:"open_sansregular";
+src: url("http://dev.bowdenweb.com/a/fonts/sans-serif/open-sans/semibold/open-sans-semibold.eot");
+src: url("http://dev.bowdenweb.com/a/fonts/sans-serif/open-sans/semibold/open-sans-semibold.eot?#iefix") format("embedded-opentype"),
+ url("http://dev.bowdenweb.com/a/fonts/sans-serif/open-sans/semibold/open-sans-semibold.woff") format("woff"),
+ url("http://dev.bowdenweb.com/a/fonts/sans-serif/open-sans/semibold/open-sans-semibold.ttf") format("truetype"),
+ url("http://dev.bowdenweb.com/a/fonts/sans-serif/open-sans/semibold/open-sans-semibold.svg#open_sans_semiboldregular") format("svg");
+font-weight:600; font-style:normal}
+
+@font-face{font-family:"open_sansregular";
+src: url("http://dev.bowdenweb.com/a/fonts/sans-serif/open-sans/semibolditalic/open-sans-semibolditalic.eot");
+src: url("http://dev.bowdenweb.com/a/fonts/sans-serif/open-sans/semibolditalic/open-sans-semibolditalic.eot?#iefix") format("embedded-opentype"),
+ url("http://dev.bowdenweb.com/a/fonts/sans-serif/open-sans/semibolditalic/open-sans-semibolditalic.woff") format("woff"),
+ url("http://dev.bowdenweb.com/a/fonts/sans-serif/open-sans/semibolditalic/open-sans-semibolditalic.ttf") format("truetype"),
+ url("http://dev.bowdenweb.com/a/fonts/sans-serif/open-sans/semibolditalic/open-sans-semibolditalic.svg#open_sans_semibolditalic") format("svg");
+font-weight:600; font-style:italic}
+
+/** HTML5 Reset http://host.sonspring.com/formalize/assets/stylesheets/html.css **/
+a,abbr,address,article,aside,audio,b,blockquote,body,caption,cite,code,dd,del,dfn,dialog,div,dl,dt,em,fieldset,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,hr,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,p,pre,q,samp,section,small,span,strong,sub,sup,table,tbody,td,tfoot,th,thead,time,tr,ul,var,video{border:0; margin:0; padding:0; font-size:100%} /** why not border:none **/
+article,aside,figure,figcaption,footer,header,hgroup,nav,section{display:block}
+figure{}
+figure img{display:block; margin:.3em auto}
+.demobox figure img,.demobox img.demoimg{float:none; margin:.3em auto}
+figcaption{display:block; margin-left:auto; margin-right:auto; margin-bottom:10px; text-align:center; font-weight:700; font-size:24px}
+
+
+
+html{overflow-y:scroll} /** prevent firefox scrollbar jump. firefox hides vertical scrollbar if content < visibile window by default **/
+html,body{height:100%}
+body{text-align:center; font:62.5%/1.5 "open_sansregular", Cambria, Verdana, Arial, Helvetica, sans-serif; /** background-color:#faf93c; **/ background:#fff url("http://dev.bowdenweb.com/a/i/style/patterns/subtle-patterns/tiny-grid.png") 0 0 repeat; color:#000; -webkit-font-smoothing:antialiased} 
+body:before{content:""; position:fixed; top:-15px; left:0; width:100%; height:15px; z-index:100; -webkit-box-shadow:0px 0px 10px rgba(0,0,0,.9); -moz-box-shadow:0px 0px 10px rgba(0,0,0,.9); box-shadow:0px 0px 10px rgba(0,0,0,.9)}
+/** http://meyerweb.com/eric/thoughts/2012/12/17/where-to-avoid-css-hyphenation/ **/
+body{hyphens:auto}
+code,var,kbd,samp,tt,dir,listing,plaintext,xmp,abbr,acronym,blockquote,q{hyphens:none}
+
+
+ 
+
+/** tables **/
+table{border-collapse:collapse; border-spacing:0; padding-top:0.5em; padding-bottom:0.5em; margin:0.8em auto; -moz-box-shadow:0 0 4px #000; -ms-box-shadow:0 0 4px #000; -o-box-shadow:0 0 4px #000; -webkit-box-shadow:0 0 4px #000; box-shadow:0 0 4px #000; color:#000; width:80%}
+tbody{}
+tfoot{background-color:#dbdbdb}
+th{font-weight:700; text-align:center; font-size:32px; background-color:#fff; padding-top:0.5em; padding-bottom:0.5em}
+td,caption{font-weight:normal; vertical-align:top; font-size:18px}
+caption{text-align:center; font-style:normal; font-weight:normal}
+caption a{text-decoration:none}
+tr{border-bottom:1px solid #ccc}
+td{padding:4px; text-align:left}
+td img{vertical-align:top}
+/** tables **/
+table{position:relative; -moz-box-shadow:0 0 4px #000; -ms-box-shadow:0 0 4px #000; -o-box-shadow:0 0 4px #000; -webkit-box-shadow:0 0 4px #000; box-shadow:0 0 4px #000}
+/** caption{position:absolute; top:0; left:0; width:100%; height:50px} **/
+caption{background-color:#ccc; padding:0.5em; -moz-box-shadow:0 0 4px #000; -ms-box-shadow:0 0 4px #000; -o-box-shadow:0 0 4px #000; -webkit-box-shadow:0 0 4px #000; box-shadow:0 0 4px #000}
+thead{margin-top:50px}
+
+
+.content{width:100%}
+#datatable{width:98%}
+td{text-align:center}
+#datatable td{font-size:11px}
+#datatable th{vertical-align:center; background-color:#fff}
+
+
+#datatable td.doublecolumnbglow{color:#f1f1f1; background-color:#1a1a1a}
+#datatable td.doublecolumnbgmod{background-color:#a4a4a4; color:#1a1a1a}
+#datatable td.doublecolumnbgsev{background-color:#d8d8d8; color:#1a1a1a}
+.heading{background:#d8d8d8 !important; border-top: 1px solid #a4a4a4; border-bottom: 1px solid #a4a4a4}
+.evenrow{color:#444; background-color: #f3f3f3; border-bottom: solid 1px #ccc; border-top: solid 1px #ccc}
